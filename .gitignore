@@ -1,0 +1,52 @@
+# Dependencies
+node_modules/
+
+# Environment Variables
+.env
+.env.*
+!.env.example
+hostinger.env
+
+# Local Development
+start-server.bat
+test-connection.js
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Local API data stores
+data/
+
+# Build outputs (if any)
+dist/
+build/
+
+# Local mobile build artifacts/toolchains
+apkapp/
+mobile-app/
+tools/
+!tools/
+tools/*
+!tools/sync-nsis-assets.cjs
+**/.gradle/
+**/build/
+**/Pods/
+**/DerivedData/
+**/local.properties
+*.keystore
+*.jks
+*.p12
+*.mobileprovision
+*.apk
+*.zip
