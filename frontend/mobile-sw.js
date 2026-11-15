@@ -1,10 +1,10 @@
-const CACHE_NAME = 'nsis-browser-assets-20261115-v1';
+const CACHE_NAME = 'nsis-browser-assets-20261115-v2';
 const PRECACHE_URLS = [
     '/mobile.css?v=nsis-20261115',
     '/mobile.js?v=nsis-20261115',
     '/mobile.webmanifest',
     '/images/Logo.jpeg?v=nsis-20261115',
-    '/school-theme.css?v=nsis-20261115-v1',
+    '/school-theme.css?v=nsis-logo-panel-20261115-v2',
     '/school-branding.js?v=20261115',
     '/school-record-storage.js?v=20261115'
 ];

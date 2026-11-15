@@ -1,11 +1,11 @@
 /* Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800&display=swap');
 
 :root {
-    --primary-color: #35a56e;
-    --primary-dark: #2b875a;
+    --primary-color: #177447;
+    --primary-dark: #0b3c27;
     --secondary-color: #55705f;
-    --accent-color: #f5bd13;
+    --accent-color: #d52f2f;
     --bg-color: #f4f8f5;
     --surface-color: #ffffff;
     --text-primary: #153326;
@@ -29,7 +29,7 @@
 }
 
 body {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Nunito', 'Segoe UI', sans-serif;
     background-color: var(--bg-color);
     color: var(--text-primary);
     line-height: 1.6;
@@ -96,7 +96,7 @@ ul {
     display: flex;
     height: 100vh;
     width: 100%;
-    background: linear-gradient(135deg, rgba(53, 165, 110, 0.14), rgba(245, 189, 19, 0.12));
+    background: linear-gradient(135deg, rgba(23, 116, 71, 0.14), rgba(213, 47, 47, 0.12));
     /* Logo theme background */
     align-items: center;
     justify-content: center;
@@ -128,7 +128,7 @@ ul {
 .login-icon-circle {
     width: min(330px, 100%);
     min-height: 96px;
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.22), rgba(53, 165, 110, 0.2));
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.22), rgba(23, 116, 71, 0.2));
     border: 1px solid rgba(255, 255, 255, 0.28);
     border-radius: 8px;
     display: grid;
@@ -402,7 +402,7 @@ ul {
 
 .sidebar {
     width: 244px;
-    background: linear-gradient(180deg, #35a56e 0%, #2b875a 100%);
+    background: linear-gradient(180deg, #177447 0%, #0b3c27 100%);
     border-right: 1px solid rgba(255, 255, 255, 0.08);
     display: flex;
     flex-direction: column;
@@ -424,9 +424,9 @@ ul {
     min-height: 62px;
     padding: 0.6rem 0.72rem;
     margin-bottom: 1.55rem;
-    border: 1px solid rgba(245, 189, 19, 0.35);
+    border: 1px solid rgba(213, 47, 47, 0.35);
     border-radius: 8px;
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.13), rgba(245, 189, 19, 0.1));
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.13), rgba(213, 47, 47, 0.1));
     color: #ffffff;
     text-align: left;
     box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.12), 0 12px 28px rgba(0, 0, 0, 0.12);
@@ -647,7 +647,7 @@ ul {
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background: linear-gradient(135deg, #f5bd13 0%, #35a56e 100%);
+    background: linear-gradient(135deg, #d52f2f 0%, #177447 100%);
     color: white;
     display: flex;
     align-items: center;
@@ -911,7 +911,7 @@ ul {
     position: absolute;
     inset: 0 0 auto 0;
     height: 3px;
-    background: linear-gradient(90deg, #35a56e 0%, #f5bd13 100%);
+    background: linear-gradient(90deg, #177447 0%, #d52f2f 100%);
 }
 
 .card:hover {
@@ -1316,7 +1316,7 @@ tbody tr:hover {
 .doc-download-btn {
     border: 1px solid #bfdbfe;
     background: linear-gradient(135deg, #f4f8f5, #fff8db);
-    color: #35a56e;
+    color: #177447;
     border-radius: 999px;
     padding: 0.38rem 0.72rem;
     font-size: 0.72rem;
@@ -2255,7 +2255,7 @@ button {
         padding: 0.4rem;
         border: 1px solid rgba(255, 255, 255, 0.14);
         border-radius: 8px;
-        background: #2b875a;
+        background: #0b3c27;
         box-shadow: var(--shadow-lg);
     }
 
@@ -2854,7 +2854,7 @@ button {
 
 /* === Nobel School SIGNATURE THEME === */
 :root {
-    --primary-color: #35a56e;
+    --primary-color: #177447;
     --primary-dark: #247b51;
     --secondary-color: #60756a;
     --accent-color: #e8b923;
@@ -2886,7 +2886,7 @@ body {
 
 .sidebar .logo-section {
     background: rgba(255, 255, 255, 0.88);
-    border: 1px solid rgba(53, 165, 110, 0.28);
+    border: 1px solid rgba(23, 116, 71, 0.28);
     border-bottom: 3px solid rgba(232, 185, 35, 0.65);
     box-shadow: 0 10px 28px rgba(37, 113, 75, 0.10);
     border-radius: 14px;
@@ -2904,7 +2904,7 @@ body {
 }
 
 .sidebar .nav-links::-webkit-scrollbar-thumb {
-    background: rgba(53, 165, 110, 0.22);
+    background: rgba(23, 116, 71, 0.22);
 }
 
 .sidebar .nav-item,
@@ -2916,7 +2916,7 @@ body {
 .sidebar .nav-item:hover,
 .sidebar .nav-subitem:hover {
     background: rgba(255, 255, 255, 0.75);
-    border-color: rgba(53, 165, 110, 0.16);
+    border-color: rgba(23, 116, 71, 0.16);
     color: #236d49;
     transform: translateX(2px);
 }
@@ -2924,23 +2924,23 @@ body {
 .sidebar .nav-item.active,
 .sidebar .nav-subitem.active,
 .sidebar .nav-dropdown.open > .nav-dropdown-toggle {
-    background: linear-gradient(135deg, #35a56e, #2d9362);
+    background: linear-gradient(135deg, #177447, #2d9362);
     border-color: transparent;
     color: #ffffff;
-    box-shadow: 0 8px 20px rgba(53, 165, 110, 0.25);
+    box-shadow: 0 8px 20px rgba(23, 116, 71, 0.25);
 }
 
 .dashboard-container .sidebar :is(.nav-item, .nav-subitem):not(.active):hover svg,
 .dashboard-container .sidebar .nav-dropdown:not(.open) > .nav-item:hover svg {
-    color: var(--admin-icon-color, var(--admin-sub-icon-color, #35a56e));
+    color: var(--admin-icon-color, var(--admin-sub-icon-color, #177447));
 }
 
 .sidebar .nav-submenu {
-    border-left-color: rgba(53, 165, 110, 0.25);
+    border-left-color: rgba(23, 116, 71, 0.25);
 }
 
 .sidebar .user-profile {
-    border-top-color: rgba(53, 165, 110, 0.22);
+    border-top-color: rgba(23, 116, 71, 0.22);
     background: rgba(255, 255, 255, 0.48);
     border-radius: 12px;
     padding: 0.75rem;
@@ -2964,7 +2964,7 @@ body {
 .dashboard-container .main-content {
     background:
         radial-gradient(circle at 92% 2%, rgba(232, 185, 35, 0.08), transparent 24%),
-        radial-gradient(circle at 15% 100%, rgba(53, 165, 110, 0.08), transparent 30%),
+        radial-gradient(circle at 15% 100%, rgba(23, 116, 71, 0.08), transparent 30%),
         linear-gradient(180deg, #fbfdfb 0%, #f4f8f5 100%);
 }
 
@@ -3001,12 +3001,12 @@ body {
 }
 
 .dashboard-container .card::before {
-    background: linear-gradient(90deg, #35a56e, #e8b923);
+    background: linear-gradient(90deg, #177447, #e8b923);
     height: 3px;
 }
 
 .dashboard-container .card:hover {
-    border-color: rgba(53, 165, 110, 0.38);
+    border-color: rgba(23, 116, 71, 0.38);
     box-shadow: 0 14px 34px rgba(34, 91, 61, 0.12);
     transform: translateY(-3px);
 }
@@ -3023,18 +3023,18 @@ body {
 .dashboard-container .table-action-select:focus {
     outline: none;
     background-color: #ffffff;
-    border-color: #35a56e;
-    box-shadow: 0 0 0 4px rgba(53, 165, 110, 0.12);
+    border-color: #177447;
+    box-shadow: 0 0 0 4px rgba(23, 116, 71, 0.12);
 }
 
 .btn-primary,
 .btn-success,
 .dashboard-container .btn-primary,
 .dashboard-container .btn-success {
-    background: linear-gradient(135deg, #35a56e 0%, #28875a 100%);
+    background: linear-gradient(135deg, #177447 0%, #28875a 100%);
     color: #ffffff;
     border: 0;
-    box-shadow: 0 7px 16px rgba(53, 165, 110, 0.22);
+    box-shadow: 0 7px 16px rgba(23, 116, 71, 0.22);
 }
 
 .btn-primary:hover,
@@ -3042,7 +3042,7 @@ body {
 .dashboard-container .btn-primary:hover,
 .dashboard-container .btn-success:hover {
     background: linear-gradient(135deg, #2f9866 0%, #226f4a 100%);
-    box-shadow: 0 10px 22px rgba(53, 165, 110, 0.3);
+    box-shadow: 0 10px 22px rgba(23, 116, 71, 0.3);
 }
 
 .dashboard-container .btn-outline {
@@ -3064,20 +3064,20 @@ body {
 .login-layout {
     background:
         radial-gradient(circle at 15% 20%, rgba(232, 185, 35, 0.18), transparent 28%),
-        radial-gradient(circle at 85% 80%, rgba(53, 165, 110, 0.18), transparent 32%),
+        radial-gradient(circle at 85% 80%, rgba(23, 116, 71, 0.18), transparent 32%),
         linear-gradient(135deg, #f8fcf9 0%, #eaf6ef 100%);
 }
 
 .login-card {
     border-radius: 18px;
-    border: 1px solid rgba(53, 165, 110, 0.18);
+    border: 1px solid rgba(23, 116, 71, 0.18);
     box-shadow: 0 28px 70px rgba(26, 77, 51, 0.18);
 }
 
 .login-header {
     background:
         radial-gradient(circle at 90% 0%, rgba(232, 185, 35, 0.28), transparent 36%),
-        linear-gradient(135deg, #35a56e 0%, #257a51 100%);
+        linear-gradient(135deg, #177447 0%, #257a51 100%);
 }
 
 .login-icon-circle {
@@ -3095,8 +3095,8 @@ body {
 }
 
 .login-body .input-group input:focus {
-    border-color: #35a56e;
-    box-shadow: 0 0 0 4px rgba(53, 165, 110, 0.13);
+    border-color: #177447;
+    box-shadow: 0 0 0 4px rgba(23, 116, 71, 0.13);
 }
 
 html,
