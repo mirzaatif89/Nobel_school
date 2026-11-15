@@ -44,19 +44,19 @@
     },
     {
       "source": "/",
-      "destination": "/frontend/login.html"
+      "destination": "/frontend/website.html"
     },
     {
       "source": "/index.html",
-      "destination": "/frontend/login.html"
+      "destination": "/frontend/website.html"
     },
     {
       "source": "/website",
-      "destination": "/frontend/login.html"
+      "destination": "/frontend/website.html"
     },
     {
       "source": "/website.html",
-      "destination": "/frontend/login.html"
+      "destination": "/frontend/website.html"
     },
     {
       "source": "/:path*",

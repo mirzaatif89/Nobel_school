@@ -1,10 +1,13 @@
-DirectoryIndex index.html frontend/index.html
+DirectoryIndex index.html frontend/website.html
 Options -Indexes
 
 <IfModule mod_rewrite.c>
     RewriteEngine On
 
-    RewriteRule ^$ frontend/index.html [L]
+    RewriteRule ^$ frontend/website.html [L]
+
+    RewriteCond %{DOCUMENT_ROOT}/frontend/$1 -f
+    RewriteRule ^((?:homepage|images)/.+)$ frontend/$1 [L]
 
     RewriteCond %{REQUEST_FILENAME} -f [OR]
     RewriteCond %{REQUEST_FILENAME} -d
